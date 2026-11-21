@@ -200,7 +200,7 @@ torch.save(
     output_dir / 'mrfn.pth'
 )
 
-# Stage 3 measured wall deflections
+# Measured wall deflections
 input_columns = list(data.columns[:79])
 output_columns = list(data.columns[79:])
 
